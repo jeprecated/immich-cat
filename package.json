@@ -14,8 +14,16 @@
   },
   "dependencies": {
     "dotenv": "^16.0.3",
-    "elm": "^0.19.1",
+    "elm": "0.19.1-6",
     "elm-live": "^4.0.2",
     "thumbhash": "^0.1.1"
+  },
+  "overrides": {
+    "elm-live": {
+      "cross-spawn": "^7.0.6",
+      "http-proxy": "^1.18.1",
+      "ws": "^7.5.10",
+      "serve-static": "^1.16.2"
+    }
   }
 }
